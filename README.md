@@ -20,6 +20,10 @@ The server requires several environment files to be configured:
 CFG_MYSQL_DATABASE=minecraft
 CFG_MYSQL_USER=minecraft
 CFG_MYSQL_PASSWORD=your_password
+
+CFG_MOTD=Minecraft Server
+CFG_MAX_PLAYERS=10
+CFG_ONLINE_MODE=true
 ```
 
 #### Create `survival1.env`:
