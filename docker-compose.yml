@@ -24,7 +24,6 @@ services:
   proxy:
     networks:
       - minecraft-network
-    user: $UID:$GID
     image: itzg/bungeecord:java21
     ports:
       - "25565:25565"
